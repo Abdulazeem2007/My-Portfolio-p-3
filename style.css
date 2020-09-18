@@ -1,0 +1,71 @@
+h1{
+    color: #16f7d9
+}
+    
+.Bio{
+    background-color: limegreen;
+     
+    display:flex;
+
+    justify-content: space-evenly;
+
+}
+
+.Bio *{
+
+    border: solid;
+}
+.menu{
+   padding: 30px;
+   
+}
+.Games{
+    color: cyan;
+    background-color: #1fe9a3;
+    
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Socialmedia{
+   display: flex;
+   justify-content: space-evenly;
+
+   background-color: #d2691e;
+
+}
+p,h2{
+    
+    text-align:center;
+    color:  crimson;
+   
+
+}
+a:link{
+    color: lawngreen;
+}
+a:visited{
+    color: lightskyblue;
+}
+.menu a{
+    margin: 30px;
+}
+.Item{
+    position: relative;
+}
+.Item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+.Item:hover p{
+    opacity: 1;
+    
+}
+
+.Item:hover img{
+    opacity: 0.5;
+
+}
